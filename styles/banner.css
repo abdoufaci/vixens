@@ -1,0 +1,116 @@
+.banner {
+  margin: 0;
+  height: 80vh;
+  background-image: url("../public/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.script {
+  position: absolute;
+  top: 45%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.script > h3 {
+  margin: 0;
+  font-size: 25px;
+  text-align: initial;
+  margin-left: 175px;
+}
+
+.script > h1 {
+  font-size: 60px;
+  color: #e59500;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-width: 900px;
+  font-family: "Akira Expanded", sans-serif;
+}
+
+.banner > button {
+  width: 250px;
+  height: 60px;
+  color: white;
+  font-size: 30px;
+  background: #e59500;
+  border: none;
+  border-radius: 5px;
+  margin-left: 300px;
+  font-family: "Akira Expanded", sans-serif;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-60%, -60%);
+}
+
+button:hover {
+  background: #ce8600;
+  transition: background 0.1s ease-out;
+}
+
+@media only screen and (min-width: 1600px) {
+  .script > h1 {
+    font-size: 80px;
+  }
+  .script > h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+#a {
+  height: 80vh;
+  width: 100%;
+}
+
+.welcome > h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+}
+
+#c {
+  top: 15%;
+  left: 55%;
+  width: 1000px;
+}
+
+#b {
+  top: 40%;
+  left: 50%;
+  background: #e59500;
+  color: white;
+  padding: 15px;
+}
+
+.welcome {
+  margin-bottom: 100px;
+}
+
+.car {
+  width: 80%;
+  margin: auto;
+  height: 50vh;
+  margin-bottom: 300px;
+  border: none;
+}
+
+#d {
+  height: 500px;
+  z-index: 1;
+}
+
+.valo {
+  margin: 0;
+  height: 80vh;
+  background-image: url("https://media.discordapp.net/attachments/682649341302931476/875504017168560198/abdouuuuuuuuuuuue.jpg?width=1025&height=393");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
