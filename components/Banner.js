@@ -1,5 +1,3 @@
-import Image from "next/image";
-import banner from '../public/banner.jpg'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
