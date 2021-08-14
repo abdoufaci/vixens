@@ -11,6 +11,9 @@ nav {
   padding-left: 50px;
   padding-right: 50px;
   background: #f7f2f1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav-link {
@@ -58,4 +61,5 @@ nav {
   color: #e59500;
   font-family: "Akira Expanded", sans-serif;
   font-size: 12px;
+  margin-right: 70px;
 }

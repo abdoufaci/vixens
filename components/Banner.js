@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 const Banner = () => {
+    const hello = "hello world";
     return(
         <div className="caro">
             <div className='welcome'>
